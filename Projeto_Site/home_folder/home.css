@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding:  0;
+    font-family: sans-serif;
+    background:#edf2f4; 
+    box-sizing: border-box;
+}
+h1{
+    font: normal 12pt sans-serif;
+}
+#temperatura{
+    font: normal 15pt sans-serif;
+}
+#greet{
+    height: 18%;
+    width: 55%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background :#2b2d42;
+    border: 2px solid #00cfc0;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+}
+.main
+{
+    height: 900px;
+    width: 55%;
+    position: absolute;
+    align-items: center;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background :#2b2d42;
+    border: 2px solid #00cfc0;
+    border-radius:5px;
+    color: white;
+}
+.option1{
+    height: 15px;
+    background:#2b2d42;
+    border: 2px solid #00cfc0;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+input[type = "submit"]{
+    border: 0;
+    background: #2b2d42;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid#00cfc0;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:  0.25s;
+    cursor : pointer;
+}
+input[type = "submit"]:hover{
+    background: #00cfc0;
+}
+.lanches{
+    
+    height: 90px;
+    width: 55%;
+    position: absolute;
+    align-items: center;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background :#2b2d42;
+    border: 2px solid #00cfc0;
+    border-radius:5px;
+    color: white;
+}

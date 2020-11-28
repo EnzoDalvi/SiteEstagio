@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding:  0;
+    font-family: sans-serif;
+    background-position:center;
+    background: #edf2f4;
+}
+div
+{
+    visibility:hidden;
+    border: 0;
+    background:#d90429;
+    display: block;
+    margin: 105px auto;
+    text-align: center;
+    border: 3px solid #ef233c;
+    padding: 10px 20px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+}
+.caixa{
+    width: 350px;
+    padding: 40;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:#2b2d42;
+    border-radius: 25px;
+    text-align: center;
+}
+.caixa h1{
+    color: white;
+    font-weight: 500;
+}
+.caixa input[type = "text"],.caixa input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #00cfc0;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:  0.25s;
+}
+.caixa input[type ="text"]:hover,.caixa input[type= "password"]:hover{
+    width: 280px;
+    border-color:#4361ee;
+}
+.caixa input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid#00cfc0;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:  0.25s;
+    cursor : pointer;
+}
+.caixa input[type = "submit"]:hover{
+    background: #00cfc0;
+}

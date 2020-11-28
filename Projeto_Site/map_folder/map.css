@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding:  0;
+    font-family: sans-serif;
+    background:#edf2f4; 
+}
+.conf input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #00c9c2;
+    background: #2b2d42;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:  0.25s;
+    cursor : pointer;
+}
+.conf input[type = "submit"]:hover{
+    background: #00cfc0;
+}
+#over{
+    height: 10%;
+    width: 55%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background :#2b2d42;
+    border: 2px solid #00cfc0;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+}
+
+#mapid{
+    height: 400px;
+    width: 85%;
+    padding: 40;
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #2b2d42;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+}
+#under{
+    height:15%;
+    width: 85%;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+    text-align: center;
+    color: #2b2d42;
+}
